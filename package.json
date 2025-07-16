@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": "pordria <pordria@outlook.com>",
   "scripts": {
-    "start": "tsc && pm2 start dist/app.js --name grid-trading-bot --log gridbot.log",
+    "start": "tsc && pm2 start dist/app.js --name grid-trading-bot --no-daemon",
     "dev": "tsc -w",
     "build": "tsc"
   },
